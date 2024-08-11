@@ -1,0 +1,79 @@
+html {
+    background-color: #e9edf2;
+  }
+  
+  body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Fontil Sans';
+    color: rgba(0, 0, 0, 0.54);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .mat-card-title {
+    font-size: 18px;
+  }
+  
+  .mat-card {
+    margin-bottom: 1px;
+  }
+  
+  section {
+    padding: 1px 1px 10px 1px;
+  }
+  
+  .main-container {
+    position: absolute;
+    top: 64px;
+    left: 250px;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+  }
+  
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .push-right #sidebar {
+      left: 0 !important;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .main-container {
+      left: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .push-right #sidebar {
+      left: 0 !important;
+    }
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  mat-form-field {
+    min-width: 50%;
+    margin: 5px;
+  }
+  
+  button {
+    margin: 3px;
+  }
+  
+  .mat-paginator {
+    margin-right: 12px;
+  }

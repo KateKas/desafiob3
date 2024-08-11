@@ -1,0 +1,21 @@
+.mat-form-field {
+    width: 100%;
+    min-width: 120px;
+  }
+  
+  mat-card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  mat-card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .success-snackbar {
+    white-space: pre-wrap
+  }
